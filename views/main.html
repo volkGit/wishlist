@@ -1,0 +1,38 @@
+<div class="block">
+	<h1>Список избранного</h1>
+</div>
+<div class="row">
+	<div class="col-lg-4">
+		<div class="products" style="max-height: {{dc.heightProducts}}">
+			<div class="block" ng-repeat="product in dc.products" ng-class="{'red-body' : product.quantity < 4}">
+				<cart-product product="product" wishlist="dc.wishlist" callback="dc.getResult()"></cart-product>
+			</div>
+		</div>		
+	</div>
+	<div class="col-lg-8">
+		<div class="block">
+			<h3>Избранное</h3>
+			<table class="table" ng-show="dc.wishlist.length > 0">
+				<thead>
+					<tr>
+						<td></td>
+						<td>Название</td>
+						<td>Наличие на складе</td>
+						<td>Цена</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="product in dc.wishlist">
+						<td>{{$index + 1}}</td>
+						<td>{{product.name}}</td>
+						<td>{{product.quantity}}</td>
+						<td>{{product.price}}</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="info" ng-show="dc.wishlist.length > 0">
+				Добавлено: {{dc.wishlist.length}} товара на сумму: {{dc.priceProducts}} руб.
+			</div>
+		</div>
+	</div>
+</div>

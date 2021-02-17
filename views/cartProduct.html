@@ -1,0 +1,15 @@
+<p><strong>{{dc.product.name}}</strong></p>
+<p><strong>Кол-во на складе:</strong> {{dc.product.quantity}}</p>
+<p><strong>Цена:</strong> {{dc.product.price}}</p>
+<hr>
+<div class="content-wish">
+	<button type="button"
+			class="btn btn-light btn-wish"
+			title="Добавить в избранное"
+			ng-click="dc.updateWishlist(dc.product)">
+			<i class="fas fa-heart" ng-class="{'red' : dc.isWishList}"></i>
+	</button>
+</div>
+<div class="alert alert-warning popup" ng-show="dc.alertShow">
+	Товар {{dc.product.name}} отсутствует на складе
+</div>

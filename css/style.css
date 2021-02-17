@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Didact Gothic';
+    src: local('DidactGothic'), url('../css/fonts/didactgothic.woff2') format('woff2'), url('../css/fonts/didactgothic.woff') format('woff'), url('../css/fonts/didactgothic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+body {
+	background: #efefef;
+	font-family: 'Didact Gothic';
+}
+.block {
+	background: #fff;
+	padding: 10px 10px;
+	margin-bottom: 10px; 
+}
+.red {
+	color: #ff0000;
+}
+.red-body {
+	background: #b74b4b;
+	color: #fff;
+}
+.red-body hr {
+	border-top: 1px solid #fff;
+}
+.popup {
+	position: fixed;
+	margin: 50px auto;
+	top: 0px;
+	left: 39%;
+	z-index: 1;
+}
+.info {
+	padding: 0px 10px;
+	text-align: right;
+}
+.btn-wish {
+	border-color: rgba(0,0,0,.1);
+	float: right;
+}
+.content-wish {
+	height: 40px;
+}
+.table thead {
+	background: #e8e7e7;
+}
+.products {
+	overflow: auto;
+}

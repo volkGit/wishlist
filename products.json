@@ -1,0 +1,63 @@
+{
+  "products": [
+    { 
+      "id": 1,		
+      "name": "Смартфон Samsung Galaxy S21 Ultra",
+      "quantity": 10,
+      "price": 118990
+    },
+    { "id": 2,
+      "name": "Смартфон Xiaomi Mi 10T 8+128GB Black",
+      "quantity": 5,
+      "price": 44990
+    },
+    { 
+    	"id": 3,
+      "name": "Смартфон Huawei Mate 40 Pro",
+      "quantity": 0,
+      "price": 88990
+    },
+    { 
+    	"id": 4,
+      "name": "Смартфон Apple iPhone 12 Pro Max",
+      "quantity": 3,
+      "price": 109990
+    },
+    { 
+    	"id": 5,
+      "name": "Смартфон Apple iPhone 11",
+      "quantity": 2,
+      "price": 59990
+    },
+    { 
+    	"id": 6,
+      "name": "Смартфон Samsung Galaxy A51",
+      "quantity": 0,
+      "price": 22990
+    },
+    { 
+    	"id": 7,
+      "name": "Смартфон Samsung Galaxy A71",
+      "quantity": 4,
+      "price": 24490
+    },
+    { 
+    	"id": 8,
+      "name": "Смартфон Huawei P30 Breathing Crystal",
+      "quantity": 7,
+      "price": 33990
+    },
+    { 
+    	"id": 9,
+      "name": "Смартфон Sony Xperia 1 Black",
+      "quantity": 8,
+      "price": 32990
+    },
+    { 
+    	"id": 10,
+      "name": "Смартфон Sony Xperia 5 II Black",
+      "quantity": 12,
+      "price": 69990
+    }
+  ]
+}
